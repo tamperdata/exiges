@@ -1,0 +1,21 @@
+{
+	"name": "uself/exiges",
+	"description": "A simple laravel helper to generate degree numbers and calculate it!",
+	"license": "MIT",
+	"keywords": ["laravel5", "laravel", "exiges", "degree", "calculate", "tiago-perrelli", "uself"],
+	"authors": {
+		"name": "Tiago Perrelli",
+		"email": "tiagoyg@gmail.com"
+	},
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Uself\\Exiges\\": "src/"
+		}
+	}
+}
