@@ -8,6 +8,13 @@ use Uself\Exiges\Contracts\Generator as GeneratorContract;
 class Generator implements GeneratorContract
 {
 	/**
+	* Temperature degrees array
+	*
+	* @var array $degrees
+	*/
+	protected $degrees = ['C', 'F', 'K'];
+
+	/**
 	* Generate a random temperature based on those parameters
 	*
 	* @param   string $degree 
@@ -20,7 +27,7 @@ class Generator implements GeneratorContract
 	{
 		if (!in_array($degree, $this->degrees))
 		{
-			$message = sprintf("");
+			$message = sprintf("To use this function pleace fill the first parameter with C, F or K.");
 			throw new InvalidArgumentException($message);
 		}
 
