@@ -2,7 +2,7 @@
 	"name": "tamperdata/exiges",
 	"description": "A simple laravel helper to convert degree numbers, generate and calculate them!",
 	"license": "MIT",
-	"keywords": ["laravel5", "laravel", "tamperdata", "exiges", "degree", "tiago-perrelli", "uself"],
+	"keywords": ["laravel5", "laravel", "tamperdata", "exiges", "degree", "tiago-perrelli"],
 	"authors": [
 		{
 			"name": "Tiago Perrelli",
