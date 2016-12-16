@@ -1,6 +1,6 @@
 {
 	"name": "uself/exiges",
-	"description": "A simple laravel helper to generate degree numbers and calculate it!",
+	"description": "A simple laravel helper to convert degree numbers, generate and calculate them!",
 	"license": "MIT",
 	"keywords": ["laravel5", "laravel", "exiges", "degree", "tiago-perrelli", "uself"],
 	"authors": [
