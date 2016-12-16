@@ -1,8 +1,8 @@
 {
-	"name": "uself/exiges",
+	"name": "tamperdata/exiges",
 	"description": "A simple laravel helper to convert degree numbers, generate and calculate them!",
 	"license": "MIT",
-	"keywords": ["laravel5", "laravel", "exiges", "degree", "tiago-perrelli", "uself"],
+	"keywords": ["laravel5", "laravel", "tamperdata", "exiges", "degree", "tiago-perrelli", "uself"],
 	"authors": [
 		{
 			"name": "Tiago Perrelli",
@@ -17,7 +17,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Uself\\Exiges\\": "src/"
+			"Tamperdata\\Exiges\\": "src/"
 		}
 	}
 }

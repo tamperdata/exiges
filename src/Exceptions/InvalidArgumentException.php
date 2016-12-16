@@ -1,6 +1,6 @@
 <?php
 
-namespace Uself\Exiges\Exceptions;
+namespace Tamperdata\Exiges\Exceptions;
 
 class InvalidArgumentException extends \Exception
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Uself\Exiges\Contracts;
+namespace Tamperdata\Exiges\Contracts;
 
 interface Generator
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Uself\Exiges;
+namespace Tamperdata\Exiges;
 
-use Uself\Exiges\Exceptions\InvalidArgumentException;
-use Uself\Exiges\Contracts\Generator as GeneratorContract;
+use Tamperdata\Exiges\Exceptions\InvalidArgumentException;
+use Tamperdata\Exiges\Contracts\Generator as GeneratorContract;
 
 class Generator implements GeneratorContract
 {
