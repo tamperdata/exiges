@@ -3,10 +3,12 @@
 	"description": "A simple laravel helper to generate degree numbers and calculate it!",
 	"license": "MIT",
 	"keywords": ["laravel5", "laravel", "exiges", "degree", "tiago-perrelli", "uself"],
-	"authors": {
-		"name": "Tiago Perrelli",
-		"email": "tiagoyg@gmail.com"
-	},
+	"authors": [
+		{
+			"name": "Tiago Perrelli",
+		 	"email": "tiagoyg@gmail.com"
+		}
+	],
 	"require": {
 		"php": ">=5.4.0"
 	},
