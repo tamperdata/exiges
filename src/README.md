@@ -1,4 +1,4 @@
-# Uself - Exiges
+# Tamperdata - Exiges
 
 A simple laravel helper to convert degree numbers, generate and calculate them!
 
@@ -6,7 +6,7 @@ A simple laravel helper to convert degree numbers, generate and calculate them!
 The package installation can be done with composer by the following command:
 
 ```shell
-composer require uself/exiges
+composer require Tamperdata/exiges
 ```
 
 Exiges **does not** provides Facades or ServiceProviders, they aren't needed.
@@ -20,7 +20,7 @@ Exiges **does not** provides Facades or ServiceProviders, they aren't needed.
 
 namespace App\MyProject;
 
-use Uself\Exiges\Conversor;
+use Tamperdata\Exiges\Conversor;
 
 class MyController
 {
@@ -55,7 +55,7 @@ class MyController
 
 namespace App\MyProject;
 
-use Uself\Exiges\Generator;
+use Tamperdata\Exiges\Generator;
 
 class MyController
 {
