@@ -6,7 +6,7 @@ A simple laravel helper to convert degree numbers, generate and calculate them!
 The package installation can be done with composer by the following command:
 
 ```shell
-composer require Tamperdata/exiges
+composer require tamperdata/exiges
 ```
 
 Exiges **does not** provides Facades or ServiceProviders, they aren't needed.
