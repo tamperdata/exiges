@@ -4,7 +4,7 @@ A simple laravel helper to convert degree numbers, generate and calculate them!
 
 [![Total Downloads](https://poser.pugx.org/tamperdata/exiges/downloads.svg)](https://packagist.org/packages/tamperdata/exiges)
 [![Latest Stable Version](https://poser.pugx.org/tamperdata/exiges/v/stable.svg)](https://packagist.org/packages/tamperdata/exiges)
-[![Build Status](https://travis-ci.org/fzaninotto/Faker.svg?branch=master)](https://travis-ci.org/tamperdata/exiges) 
+[![Build Status](https://travis-ci.org/tamperdata/exiges.svg?branch=master)](https://travis-ci.org/tamperdata/exiges) 
 
 ### Installing
 The package installation can be done with composer by the following command:
