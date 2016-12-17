@@ -17,5 +17,6 @@ cache:
 before_script:
     - travis_retry composer self-update
     - travis_retry composer install --no-interaction --prefer-dist
+    - composer dump-autoload
 
 script: phpunit tests/ConversorTest.php

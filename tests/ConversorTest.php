@@ -3,12 +3,13 @@
 namespace Tamperdata\Exiges\Tests;
 
 use \PHPUnit\Framework\TestCase;
+use \Tamperdata\Exiges\Conversor;
 
 class ConversorTest extends \PHPUnit_Framework_TestCase
 {
 	public function testCelsiusToFahrenheit($value = 10)
 	{
-		$conversor = new \Tamperdata\Exiges\Conversor;
+		$conversor = new Conversor;
 
 		$this->assertEquals('50°F', $conversor->celsiusToFahrenheit($value));
 	}
