@@ -1,6 +1,6 @@
 # Tamperdata - Exiges
 
-A simple php helper to convert degree numbers, generate and calculate them!
+A simple php library to convert degree numbers, generate and calculate them!
 
 [![Total Downloads](https://poser.pugx.org/tamperdata/exiges/downloads.svg)](https://packagist.org/packages/tamperdata/exiges)
 [![Latest Stable Version](https://poser.pugx.org/tamperdata/exiges/v/stable.svg)](https://packagist.org/packages/tamperdata/exiges)
