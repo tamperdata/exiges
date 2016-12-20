@@ -14,42 +14,46 @@ namespace Tamperdata\Exiges\Tests;
 use \PHPUnit\Framework\TestCase;
 use Tamperdata\Exiges\Conversor;
 
-class ConversorTest extends \PHPUnit_Framework_TestCase
+class ConversorProviderTest extends \PHPUnit_Framework_TestCase
 {
+	protected $faker;
 	protected $conversor;
 
 	protected function setUp()
 	{
-		$this->conversor = new Conversor;
+		$this->faker     = \Faker\Factory::create();
+		$this->conversor = new \Tamperdata\Exiges\Conversor();
+
+		$this->faker->addProvider($this->conversor);
 	}
 
 	public function testCelsiusToFahrenheit($value = 10)
-	{
-		$this->assertEquals('50°F', $this->conversor->celsiusToFahrenheit($value));
+	{	
+		$this->assertEquals('50°F', $this->faker->celsiusToFahrenheit(10));
 	}
 
 	public function testCelsiusToKelvin($value = 10)
 	{
-		$this->assertEquals('283.15°K', $this->conversor->celsiusToKelvin($value));
+		$this->assertEquals('283.15°K', $this->faker->celsiusToKelvin($value));
 	}
 
 	public function testFahrenheitToCelsius($value = 10)
 	{
-		$this->assertEquals('-12.2222°C', $this->conversor->fahrenheitToCelsius($value));
+		$this->assertEquals('-12.2222°C', $this->faker->fahrenheitToCelsius($value));
 	}
 
 	public function testFahrenheitToKelvin($value = 10)
 	{
-		$this->assertEquals('260.9278°K', $this->conversor->fahrenheitToKelvin($value));	
+		$this->assertEquals('260.9278°K', $this->faker->fahrenheitToKelvin($value));	
 	}
 
 	public function testKelvinToCelsius($value = 10)
 	{
-		$this->assertEquals('-263.15°C', $this->conversor->kelvinToCelsius($value));
+		$this->assertEquals('-263.15°C', $this->faker->kelvinToCelsius($value));
 	}
 
 	public function testKelvinToFahrenheit($value = 10)
 	{
-		$this->assertEquals('-441.67°F', $this->conversor->kelvinToFahrenheit($value));	
-	}
+		$this->assertEquals('-441.67°F', $this->faker->kelvinToFahrenheit($value));	
+	}	
 }

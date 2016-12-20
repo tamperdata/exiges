@@ -19,4 +19,7 @@ before_script:
     - travis_retry composer install --no-interaction --prefer-dist
     - composer dump-autoload
 
-script: vendor/phpunit/phpunit/phpunit tests/ConversorTest.php
+script: 
+    - vendor/phpunit/phpunit/phpunit tests/ConversorTest.php
+    - vendor/phpunit/phpunit/phpunit tests/ConversorWithFakerTest.php
+    - vendor/phpunit/phpunit/phpunit tests/GeneratorTest.php
