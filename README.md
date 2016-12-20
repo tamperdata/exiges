@@ -1,6 +1,6 @@
-# Tamperdata - Exiges
+# Exiges
 
-A simple php library to generate and convert degree numbers It'as also compatible with fzaninotto/Faker.
+A simple php library to generate and convert degree numbers. It'as also compatible with fzaninotto/Faker.
 
 [![Total Downloads](https://poser.pugx.org/tamperdata/exiges/downloads.svg)](https://packagist.org/packages/tamperdata/exiges)
 [![Latest Stable Version](https://poser.pugx.org/tamperdata/exiges/v/stable.svg)](https://packagist.org/packages/tamperdata/exiges)
@@ -74,4 +74,4 @@ $faker->celsiusToFahrenheit(10);
 
 ## License
 
-Exiges library is licensed under [The MIT License (MIT)](https://github.com/tamperdata/exiges/blob/master/LICENSE)(LICENSE).
+Exiges library is licensed under [The MIT License (MIT)] (https://github.com/tamperdata/exiges/blob/master/LICENSE)(LICENSE).
