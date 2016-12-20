@@ -60,16 +60,16 @@ You can also use it with the fantastic Faker library! (It's actually what its de
 https://github.com/fzaninotto/Faker
 
 ```php
-	$faker     = \Faker\Factory::create();
-	
-	$conversor = new \Tamperdata\Exiges\Conversor();
-	$generator = new \Tamperdata\Exiges\Generator();
+$faker     = \Faker\Factory::create();
 
-	$faker->addProvider($generator);
-	$faker->addProvider($conversor);
+$conversor = new \Tamperdata\Exiges\Conversor();
+$generator = new \Tamperdata\Exiges\Generator();
 
-	$faker->temperatureForHumans('C', -10, 50);
-	$faker->celsiusToFahrenheit(10);
+$faker->addProvider($generator);
+$faker->addProvider($conversor);
+
+$faker->temperatureForHumans('C', -10, 50);
+$faker->celsiusToFahrenheit(10);
 ```
 
 ## License
