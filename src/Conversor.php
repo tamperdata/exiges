@@ -25,6 +25,11 @@ class Conversor implements ConversorContract
 	*/
 	public function celsiusToFahrenheit($number = 0)
 	{
+		if (!is_numeric($number))
+		{
+			throw new InvalidArgumentException("Please fill in numbers only");
+		}
+
 		$fahrenheit = ( $number * ( 9 / 5 )) + 32;
 
 		return $fahrenheit . '°F';
@@ -39,6 +44,11 @@ class Conversor implements ConversorContract
 	*/
 	public function celsiusToKelvin($number = 0)
 	{
+		if (!is_numeric($number))
+		{
+			throw new InvalidArgumentException("Please fill in numbers only");
+		}
+
 		$kelvin = $number + 273.15;
 
 		return $kelvin . '°K';
@@ -53,6 +63,11 @@ class Conversor implements ConversorContract
 	*/
 	public function fahrenheitToCelsius($number = 0)
 	{
+		if (!is_numeric($number))
+		{
+			throw new InvalidArgumentException("Please fill in numbers only");
+		}
+
 		$celsius = ( $number - 32 ) * ( 5 / 9 );
 
 		return round($celsius, 4) . '°C';
@@ -67,6 +82,11 @@ class Conversor implements ConversorContract
 	*/
 	public function fahrenheitToKelvin($number = 0)
 	{
+		if (!is_numeric($number))
+		{
+			throw new InvalidArgumentException("Please fill in numbers only");
+		}
+
 		$kelvin = ( $number + 459.67 ) * ( 5 / 9 );
 
 		return round($kelvin, 4) . '°K';
@@ -81,6 +101,11 @@ class Conversor implements ConversorContract
 	*/
 	public function kelvinToCelsius($number = 0)
 	{
+		if (!is_numeric($number))
+		{
+			throw new InvalidArgumentException("Please fill in numbers only");
+		}
+
 		$celsius = $number - 273.15;
 
 		return $celsius . '°C';
@@ -95,6 +120,11 @@ class Conversor implements ConversorContract
 	*/
 	public function kelvinToFahrenheit($number = 0)
 	{
+		if (!is_numeric($number))
+		{
+			throw new InvalidArgumentException("Please fill in numbers only");
+		}
+		
 		$fahrenheit = ( $number  * ( 9 / 5 )) - 459.67;
 
 		return $fahrenheit . '°F';

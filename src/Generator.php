@@ -34,6 +34,11 @@ class Generator implements GeneratorContract
 	*/
 	public function temperatureForHumans($degree = 'C', $number1 = -300, $number2 = 300)
 	{
+		if (!is_numeric($number1) || !is_numeric($number2))
+		{
+			throw new InvalidArgumentException("Please fill in numbers only");
+		}
+
 		if (!in_array($degree, $this->degrees))
 		{
 			$message = sprintf("To use this function please fill the first parameter with C, F or K.");
